@@ -18,3 +18,11 @@ GET http://localhost:3000/auth?email=brankohozza@gmail.com
 
 ### REMOVE A PARTICULAR USER WITH A GIVEN ID
 DELETE http://localhost:3000/auth/2
+
+### UPDATE A PARTICULAR USER WITH A GIVEN ID
+PATCH http://localhost:3000/auth/4
+Content-Type: application/json
+
+{
+  "email":"dada@haha.com"
+}
