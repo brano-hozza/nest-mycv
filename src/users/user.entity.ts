@@ -2,12 +2,12 @@ import {
   Entity,
   Column,
   PrimaryGeneratedColumn,
-  Unique,
   AfterInsert,
   AfterUpdate,
-  AfterRemove,
   BeforeRemove,
 } from 'typeorm';
+
+import { Exclude } from 'class-transformer';
 
 @Entity()
 export class User {
