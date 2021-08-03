@@ -15,7 +15,7 @@ POST http://localhost:3000/auth/signin
 Content-Type: application/json
 
 {
-  "email": "dano@gmail.com",
+  "email": "dao@gmail.com",
   "password": "15646"
 }
 
@@ -36,3 +36,10 @@ Content-Type: application/json
 {
   "email":"dada@haha.com"
 }
+
+### SET COLOR
+GET http://localhost:3000/auth/colors/red
+
+
+### GET COLOR
+GET http://localhost:3000/auth/colors
