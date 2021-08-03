@@ -6,7 +6,7 @@ POST http://localhost:3000/auth/signup
 Content-Type: application/json
 
 {
-  "email": "dano@gmail.com",
+  "email": "danko@gmail.com",
   "password": "15646"
 }
 
@@ -15,10 +15,12 @@ POST http://localhost:3000/auth/signin
 Content-Type: application/json
 
 {
-  "email": "dao@gmail.com",
+  "email": "dano@gmail.com",
   "password": "15646"
 }
 
+### GET CURRENT USER
+GET http://localhost:3000/auth/current
 
 ### FIND A PARTICULAR USER WITH A GIVEN ID
 GET http://localhost:3000/auth/5
